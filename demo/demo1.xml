@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+            <configuration>
+              <includes>
+                <include>**/*Test.java</include>
+                <include>**/*TestBinary.java</include>
+                <include>**/*TestPermutations.java</include>
+              </includes>
+              <excludes>
+                <exclude>**/*AbstractTest.java</exclude>
+              </excludes>
+          </configuration>
+        </plugin>
